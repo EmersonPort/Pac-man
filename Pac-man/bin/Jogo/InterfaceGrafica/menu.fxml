@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Jogo.InterfaceGrafica.TelaController">
+   <children>
+      <Circle fill="WHITE" layoutX="294.0" layoutY="93.0" radius="26.0" stroke="WHITE" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#325372" height="400.0" layoutX="-2.0" stroke="#080c36" strokeType="INSIDE" width="606.0" />
+      <Arc fill="#fff51f" layoutX="309.0" layoutY="145.0" length="270.0" radiusX="100.0" radiusY="100.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Circle layoutX="309.0" layoutY="93.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="bSair" layoutX="278.0" layoutY="335.0" mnemonicParsing="false" onAction="#clicouSair" text="Sair" />
+      <Button fx:id="bStart" layoutX="275.0" layoutY="297.0" mnemonicParsing="false" onAction="#clicouStart" text="Start" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="532.0" prefWidth="821.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#325372" height="595.0" layoutX="-48.0" layoutY="-60.0" stroke="#080c36" strokeType="INSIDE" width="870.0" />
+   </children>
+</AnchorPane>
